@@ -1,0 +1,48 @@
+* {
+	font-family: "Oswald", serif;
+	font-weight: 400;
+}
+
+body {
+	background-color: #140518;
+}
+
+main > h1{
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+main > p{
+	color: white;
+	text-align: center;
+}
+
+.blog-preview{
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+.preview{
+	margin: 20px;
+	border: 2px white solid;
+	border-radius: 6px;
+	color: white;
+}
+
+.preview a{
+	text-align: center;
+	color: #E9EB87;
+}
+
+.preview a:hover{
+	color: #7B5E7B;
+}
+
+.preview p{
+	font-size: 13px;
+	font-weight: 300;
+	margin: 10px;
+}
